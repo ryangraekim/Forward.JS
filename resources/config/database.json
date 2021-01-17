@@ -1,0 +1,19 @@
+{
+    "defaultDatabase": "mariadb",
+    "connectionInfo": {
+        "mariadb": {
+            "host": "localhost",
+            "port": "3306",
+            "username": "root",
+            "password": "password",
+            "database": "forward",
+            "timezone": "Etc/GMT+9",
+            "loggerMessage": "#message#, 경과 시간: #milliseconds#ms",
+            "pool": {
+                "max": 5,
+                "idle": 30000,
+                "acquire": 60000
+            }
+        }
+    }
+}
